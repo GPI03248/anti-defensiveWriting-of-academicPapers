@@ -1,0 +1,12 @@
+[submodule "upstream/anti-defensive-writing"]
+	path = upstream/anti-defensive-writing
+	url = https://github.com/Kiterlin/anti-defensive-writing.git
+[submodule "upstream/scholar-papercraft"]
+	path = upstream/scholar-papercraft
+	url = https://github.com/Tw6249/scholar-papercraft.git
+[submodule "upstream/writing-skills"]
+	path = upstream/writing-skills
+	url = https://github.com/msimchowitz/writing-skills.git
+[submodule "upstream/compass-skills"]
+	path = upstream/compass-skills
+	url = https://github.com/dongshuyan/compass-skills.git

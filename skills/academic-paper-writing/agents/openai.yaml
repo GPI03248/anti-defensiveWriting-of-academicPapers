@@ -1,0 +1,4 @@
+interface:
+  display_name: "Academic Paper Writing"
+  short_description: "减少学术论文的重复局限与内部溯源泄漏，保留必要限定和科学含义"
+  default_prompt: "使用 $academic-paper-writing 修订提供的论文，合并重复局限、分离复现记录与正文，并保持科学含义和学术语体。"

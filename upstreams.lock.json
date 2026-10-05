@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-05T09:59:53.204136+00:00",
+  "upstreams": [
+    {
+      "name": "anti-defensive-writing",
+      "url": "https://github.com/Kiterlin/anti-defensive-writing.git",
+      "path": "upstream/anti-defensive-writing",
+      "commit": "c7edf8fc91ae9c4f7e58345bd12934bb4cf41c46",
+      "entrypoint": "skill/anti-defensive-writing/SKILL.md",
+      "license": "MIT"
+    },
+    {
+      "name": "scholar-papercraft",
+      "url": "https://github.com/Tw6249/scholar-papercraft.git",
+      "path": "upstream/scholar-papercraft",
+      "commit": "70f657649bdaa23c2a7eaea4e521cfd771290c1a",
+      "entrypoint": "SKILL.md",
+      "license": "NO_LICENSE_FILE_FOUND"
+    },
+    {
+      "name": "writing-skills",
+      "url": "https://github.com/msimchowitz/writing-skills.git",
+      "path": "upstream/writing-skills",
+      "commit": "214981fe02326f27b0fc8790d00eb4b731607073",
+      "entrypoint": "for-agents/academic-voice/SKILL.md",
+      "license": "MIT"
+    },
+    {
+      "name": "compass-skills",
+      "url": "https://github.com/dongshuyan/compass-skills.git",
+      "path": "upstream/compass-skills",
+      "commit": "1b2e556ce6f293ba12e95e18d51995d6a969d52f",
+      "entrypoint": "skills/academic-humanizer/SKILL.md",
+      "license": "MIT"
+    }
+  ]
+}

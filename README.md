@@ -1,6 +1,6 @@
 # anti-defensiveWrting-of-academicPapers
 
-面向中英文学术论文的非防御性写作与正文边界规范。项目名称保留创建者指定的拼写。
+ADWAP：面向中英文学术论文的非防御性写作与正文边界规范。项目名称保留创建者指定的拼写。
 
 **本项目基于以下四个 GitHub 项目耦合整合而成，感谢原作者公开分享他们的规则、示例和工作流：**
 
@@ -12,6 +12,12 @@
 | [compass-skills](https://github.com/dongshuyan/compass-skills) | dongshuyan / COMPASS Skills contributors | academic-humanizer 的语义保护、术语一致性和全文重复检查 |
 
 整合层统一处理四类问题，并明确规则冲突时的优先级。四个原始项目以 Git submodule 保留在 `upstream/`，固定到具体提交；日常使用只需加载本项目的统一 Skill，不必同时启动四套流程。具体来源、整合选择和许可证见 [来源说明](THIRD_PARTY_NOTICES.md) 与 [整合设计](docs/integration.md)。本项目没有上游官方背书。
+
+## 个人改稿经验的融合
+
+在四个上游基础上，已融入创建者提供、由 Claude 根据此前论文修改 PROMPT 整理的《学术论文修改要点》。[原始清单](docs/sources/personal-revision-checklist.md) 原样保留，逐项整合去向见 [整合设计](docs/integration.md#个人改稿清单映射)。
+
+新增规则覆盖贡献主次、核心图表位置、领域通行术语、口语与借喻、投稿待办信息，以及授权范围内的全文同类排查。《航空学报》格式条目作为 [待核对的期刊笔记](skills/academic-paper-writing/references/venue-adaptation.md) 单独保存，不作为所有论文的通用要求。
 
 ## 解决什么问题
 

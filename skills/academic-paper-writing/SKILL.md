@@ -15,6 +15,8 @@ description: Draft, diagnose, or revise Chinese and English academic papers to r
 4. 局限性放置、论证顺序与作者表达。
 5. 句法、节奏和表面重复。
 
+规则表达判断依据，不维护具体期刊规范或词汇替换表，不将历史稿件的名称、数值和结构作为默认写作要求。
+
 低优先级修改不得破坏高优先级内容。若一句话同时含结果与内部路径，拆出路径并保留结果；若删除限定会扩大结论，保留该限定。用户要求保留的代码或引用，不按普通散文处理。
 
 ## 按任务读取
@@ -24,9 +26,9 @@ description: Draft, diagnose, or revise Chinese and English academic papers to r
 - 起草或修改摘要：读 [摘要写作](references/abstract.md)。
 - 起草论文、重构章节或修改全文：读 [论证与语体](references/argument-and-voice.md)。
 - 中文论文或术语、口语、借喻问题：读 [术语与中文表达](references/terminology-and-register.md)。
-- 核对投稿格式：读 [期刊适配](references/venue-adaptation.md)，其中个人期刊笔记须与现行官方要求核对。
+- 核对投稿格式：读 [期刊适配](references/venue-adaptation.md)，按目标期刊的现行官方要求判断，不从历史个案推定格式。
 - 多段文字的编辑或生成：读 [全文检查](references/document-review.md)。
-- 首次使用或处理混合信息句：读 [中英文示例](references/examples.md)。
+- 需要辨别规则适用边界：读 [判断情境](references/examples.md)。
 
 小范围编辑只加载有关规则。规则已经在这里统一；不要自动递归调用四个上游 Skill、执行其脚本、启动多 agent 流程或引入其全部审批环节。
 

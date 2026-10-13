@@ -13,13 +13,11 @@ ADWAP：面向中英文学术论文的非防御性写作与正文边界规范。
 
 整合层统一处理四类问题，并明确规则冲突时的优先级。四个原始项目以 Git submodule 保留在 `upstream/`，固定到具体提交；日常使用只需加载本项目的统一 Skill，不必同时启动四套流程。具体来源、整合选择和许可证见 [来源说明](THIRD_PARTY_NOTICES.md) 与 [整合设计](docs/integration.md)。本项目没有上游官方背书。
 
-## 个人改稿经验的融合
+## 从改稿经验提炼通用规则
 
-在四个上游基础上，已融入创建者提供、由 Claude 根据此前论文修改 PROMPT 整理的《学术论文修改要点》。[原始清单](docs/sources/personal-revision-checklist.md) 原样保留，逐项整合去向见 [整合设计](docs/integration.md#个人改稿清单映射)。
+本项目将作者反馈转化为可迁移的判断方法：依据概念和领域用法选择表达，依据研究问题组织论证，依据主张选择证据，依据目标投稿要求适配格式。Skill 不内置具体期刊规范、词汇替换表、单篇论文片段或固定段落与图表配额。
 
-2026-10 的 [作者增量反馈](docs/sources/personal-revision-checklist-2026-10.md) 已进一步整合为术语选择的判断逻辑、摘要组织、引言机制链、讨论与结论分工、直接结果证据及追加式措辞审计。具体词例不作为固定替换表；《计算物理》的条目保留为未与官方核验的作者笔记。处理依据见 [增量整合说明](docs/integration.md#2026-10-增量与通用化处理)。
-
-新增规则覆盖贡献主次、核心图表位置、领域通行术语、口语与借喻、投稿待办信息，以及授权范围内的全文同类排查。《航空学报》格式条目作为 [待核对的期刊笔记](skills/academic-paper-writing/references/venue-adaptation.md) 单独保存，不作为所有论文的通用要求。
+[历史来源](docs/sources/personal-revision-checklist.md) 与 [增量反馈](docs/sources/personal-revision-checklist-2026-10.md) 仅保留在维护档案中，不作为 Skill 的执行参考。来源到通用规则的对应关系见 [整合设计](docs/integration.md)。
 
 ## 解决什么问题
 
@@ -71,7 +69,7 @@ ADWAP：面向中英文学术论文的非防御性写作与正文边界规范。
 4. 按研究问题与证据组织段落，形成可读的学术论证。
 5. 检查全文重复模式，再逐项核对修改前后的科学含义。
 
-任务只涉及一个段落时，仅检查这个段落及提供的必要上下文；不会强制启动全文审计。流程详见 [统一规则](skills/academic-paper-writing/SKILL.md)，中英文示例见 [示例](skills/academic-paper-writing/references/examples.md)。
+任务只涉及一个段落时，仅检查这个段落及提供的必要上下文；不会强制启动全文审计。流程详见 [统一规则](skills/academic-paper-writing/SKILL.md)，判断情境见 [示例](skills/academic-paper-writing/references/examples.md)。
 
 ## 目录
 
@@ -89,7 +87,7 @@ LICENSE                         本项目整合层的 MIT 许可证
 
 ## 获取与维护上游
 
-获取本项目时使用 `git clone --recurse-submodules <本项目的仓库地址>`；本地新建项目尚未配置远程地址。
+获取本项目时使用 `git clone --recurse-submodules <本项目的仓库地址>`。
 
 普通 clone 后，在项目根目录运行：
 

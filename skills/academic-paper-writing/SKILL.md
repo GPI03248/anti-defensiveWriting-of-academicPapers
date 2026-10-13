@@ -21,6 +21,7 @@ description: Draft, diagnose, or revise Chinese and English academic papers to r
 
 - 处理局限、免责声明或反复自证：读 [局限性与论断](references/limitations.md)。
 - 从实验文件起草，或正文出现路径、哈希、日志：读 [正文与材料边界](references/artifact-boundary.md)。
+- 起草或修改摘要：读 [摘要写作](references/abstract.md)。
 - 起草论文、重构章节或修改全文：读 [论证与语体](references/argument-and-voice.md)。
 - 中文论文或术语、口语、借喻问题：读 [术语与中文表达](references/terminology-and-register.md)。
 - 核对投稿格式：读 [期刊适配](references/venue-adaptation.md)，其中个人期刊笔记须与现行官方要求核对。
@@ -63,6 +64,6 @@ description: Draft, diagnose, or revise Chinese and English academic papers to r
 - **诊断**：提供具体位置、问题、建议操作（保留 / 改写 / 合并 / 移出 / 待确认）及理由。
 - **修改文件**：仅编辑授权文件；修改摘要与文件路径放在交付消息中，不写入论文。
 - **缺失信息**：将影响正确性的疑问放在正文之外；不把占位符猜填成事实。
-- **要求审计记录时**：单独交付修改记录和迁移清单，保持其与论文文本可明确区分。
+- **要求审计记录时**：按 [全文检查中的审计格式](references/document-review.md#措辞修改审计) 追加记录修改及撤销，单独交付修改记录和迁移清单；记录放在作者项目的授权位置，与论文文本区分。
 
 来源与许可见随包提供的 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。这些规则是四个上游思想与用户需求的统一整合，不代表上游作者对输出的认证。

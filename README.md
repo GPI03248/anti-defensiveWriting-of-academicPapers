@@ -17,6 +17,8 @@ ADWAP：面向中英文学术论文的非防御性写作与正文边界规范。
 
 在四个上游基础上，已融入创建者提供、由 Claude 根据此前论文修改 PROMPT 整理的《学术论文修改要点》。[原始清单](docs/sources/personal-revision-checklist.md) 原样保留，逐项整合去向见 [整合设计](docs/integration.md#个人改稿清单映射)。
 
+2026-10 的 [作者增量反馈](docs/sources/personal-revision-checklist-2026-10.md) 已进一步整合为术语选择的判断逻辑、摘要组织、引言机制链、讨论与结论分工、直接结果证据及追加式措辞审计。具体词例不作为固定替换表；《计算物理》的条目保留为未与官方核验的作者笔记。处理依据见 [增量整合说明](docs/integration.md#2026-10-增量与通用化处理)。
+
 新增规则覆盖贡献主次、核心图表位置、领域通行术语、口语与借喻、投稿待办信息，以及授权范围内的全文同类排查。《航空学报》格式条目作为 [待核对的期刊笔记](skills/academic-paper-writing/references/venue-adaptation.md) 单独保存，不作为所有论文的通用要求。
 
 ## 解决什么问题
